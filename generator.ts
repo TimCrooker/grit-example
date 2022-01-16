@@ -12,7 +12,7 @@ const config = {
       this.input({
         name: 'description',
         message: 'How would you describe the project',
-        default: `my awesome new grit-generator`
+        default: `enter description here`
       })
       this.input({
         name: 'username',
@@ -36,9 +36,6 @@ const config = {
         store: true
       })
   },
-	plugins: {
-		mergeFiles: []
-	},
   actions() {
     this.add({ 
       files: '**',

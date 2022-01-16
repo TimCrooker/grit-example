@@ -2252,26 +2252,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-grit-cli@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/grit-cli/-/grit-cli-0.6.3.tgz#7c7c7bf7d02c0a8a183079ddd1ba9e6ff2b09637"
-  integrity sha512-Z8YBik74tPGHpneN4Ym1OE+tzch+54AwA0WGfNcI9eiqbV4Wurp0ITAU7JVBWfsefOOdDWmZOrfjjVyJ/igVTA==
-  dependencies:
-    axios "^0.24.0"
-    commander "^8.3.0"
-    dot-prop "^5.3.0"
-    figlet "^1.5.2"
-    fs-extra "^9.1.0"
-    gritenv "^0.3.8"
-    ini "^2.0.0"
-    inquirer "^8.2.0"
-    ora "4.1.1"
-    parse-package-name "^1.0.0"
-    resolve-from "^5.0.0"
-    rimraf "^3.0.2"
-    update-notifier "^5.1.0"
-
-gritenv@^0.3.3, gritenv@^0.3.8:
+gritenv@^0.3.8:
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/gritenv/-/gritenv-0.3.8.tgz#aa633b5c79c77b9c880b3851167e01123224bfe5"
   integrity sha512-Z6lamLY/gxX5e4GeCeA0iCGFlyLyKD44PHQEQNxmiINNRAyGNXOdfAmgxtBP18f5BzjvOYCoMRBb8oOelGUeQQ==
@@ -2418,7 +2399,7 @@ inherits@2, inherits@^2.0.3, inherits@^2.0.4:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-ini@2.0.0, ini@^2.0.0:
+ini@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ini/-/ini-2.0.0.tgz#e5fd556ecdd5726be978fa1001862eacb0a94bc5"
   integrity sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==
